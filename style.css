@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'NIXGONM-Vb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+
+.img{
+    width: auto; 
+    height: 100px; 
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'NIXGONM-Vb';
+    display: flex;
+}
+
+img{
+    height: 100%;
+}
+
+header{
+    margin-top: 40px;
+    padding: 50px 0;
+}
+
+nav{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+nav a{
+    font-family: 'NIXGONM-Vb';
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    word-spacing: 17px;
+}
+
+.center{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 1280px;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+footer div a{
+    font-size: 9px;
+    font-family: 'NanumSquare', sans-serif !important;
+    color: #999;
+    text-decoration: none;
+}
+
+.container{
+    border: 1px solid black;
+    margin: auto;
+    width: 700px;
+    height: 800px;
+}
+
+article{
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 7px 7px 7px;
+}
+
+article img{
+    width: 100%;
+}
+
+section .center{
+    display: flex;
+}
+
+section .center .up{
+    height: 320px;
+    border: 1px solid black;
+    width: 60%;
+    margin: 7px 7px 7px 7px;
+    padding: 7px 7px 3px 7px;
+    font-family: 'GyeonggiBatang';
+    line-height: 12px;
+    font-size: 12.5px;
+}
+
+section .center .down{
+    height: 320px;
+    border: 1px solid black;
+    width: 40%;
+    margin: 7px 7px 7px 7px;
+    padding: 7px 7px 3px 7px;
+    font-family: 'GyeonggiBatang';
+    line-height: 12px;
+    font-size: 12.5px;
+}
+
+.bottom .center{
+    height: 180px;
+    border: 1px solid black;
+    width: 684px;
+    margin: 7px 7px 7px 7px;
+    padding: 7px 7px 3px 7px;
+    font-family: 'GyeonggiBatang';
+    line-height: 12px;
+    font-size: 12px;
+}
